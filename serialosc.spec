@@ -11,6 +11,7 @@ Patch0:         optparse.patch
 
 BuildRequires: avahi-compat-libdns_sd-devel
 BuildRequires: gcc-c++
+BuildRequires: git
 BuildRequires: liblo-devel
 BuildRequires: libmonome-devel
 BuildRequires: libuv-devel
