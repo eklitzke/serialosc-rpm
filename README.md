@@ -1,4 +1,5 @@
 RPM packaging for [serialosc](https://github.com/monome/serialosc).
 
-See also [libmonome-rpm](https://github.com/eklitzke/libmonome-rpm) for RPM
-packaging of [libmonome](https://github.com/monome/libmonome).
+Pre-built RPMS are available at
+[eklitzke/monome](https://copr.fedorainfracloud.org/coprs/eklitzke/monome/) on
+Fedora COPR.
