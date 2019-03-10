@@ -13,9 +13,11 @@ BuildRequires: gcc-c++
 BuildRequires: libmonome-devel
 BuildRequires: libuv-devel
 BuildRequires: python
+BuildRequires: systemd-devel
 
 Requires:      libmonome
 Requires:      libuv
+Requires:      systemd-libs
 
 %description
 
