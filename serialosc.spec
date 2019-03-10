@@ -9,12 +9,15 @@ Source0:        https://github.com/monome/serialosc/archive/v1.4.1/serialosc-1.4
 
 Patch0:         optparse.patch
 
+BuildRequires: avahi-devel
 BuildRequires: gcc-c++
+BuildRequires: liblo-devel
 BuildRequires: libmonome-devel
 BuildRequires: libuv-devel
 BuildRequires: python
 BuildRequires: systemd-devel
 
+Requires:      avahi-libs
 Requires:      libmonome
 Requires:      libuv
 Requires:      systemd-libs
